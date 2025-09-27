@@ -3,13 +3,111 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width"
-        <title>WTF</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title> 
+         <link rel="stylesheet" href="style.css" />
 
     </head>
     <body>
-        <h1>WTF</h1>
-        <P>This page is intentionally left blank.</P>
-        <script src="./javascript.js"></script>
+        
+        <section class="left-section">
+         <div>
+        <img
+        id="app-logo"
+        src="data:image/png;base64,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"
+        alt="WTF logo"
+        width="300"
+        />
+        </div>
+        <br>
+        <br>
+
+
+        <h2>Welcome to Codedivas Learning Hub </h2>
+        <br>
+        <br>
+
+        <main class="form-section">
+        <h1>Create an Account</h1>
+        <br>
+
+        <label>Name</label>
+        <br/>
+        <input type="text" placeholder="Name">
+        <br/>
+        <br>
+
+        <label> Email </label>
+        <br/>
+        <input type="email"  placeholder="Email">
+         <br>
+        <br>
+
+        <label> Password</label>
+        <br/>
+        <div><input placeholder="Enter your Password">
+        <br>
+        <br>
+
+        <label for="Sign up">
+            <input type="checkbox" >I Agree to the <a href="https://www.termsfeed.com/dictionary/terms-and-conditions-definition/">  Terms & Condiions</a>
+        </label>
+
+         <br>
+        <br>
+
+        <button> Create Account </button>
+
+        </form>
+
+         <br>
+        <br>
+
+        <div> Or Register With
+             <br>
+        <br>
+        <div class="social-login">
+         <button><img
+            width="30"
+            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+             alt="Google logo"> Google </button>
+        
+
+
+        <button><img
+            width="30"
+            src="https://cdn-icons-png.flaticon.com/512/94/94225.png" 
+            alt="Apple logo">   Apple </button>
+             
+        </div>
+
+         <br>
+        <br>
+         
+        <p> Already have an Account? <a href="https://womentechsters.org/">  Login</a></p>
+
+              </section>
+
+        <section class="right-section">
+        <div class="content"></div>
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lOtzgWf0mF0HPzAg0cVfLP6Ui6YxGCEABA&s"
+            alt="WTF scholars"
+            />
+
+             <br>
+        <br>
+        <br>
+
+        <h3> Very simple way you can code</h3>
+        <p>Welcome to Codedivas Learning Hub! We help you learn coding from basics to advance level</p>
+        </div>
+
+        </section>
     </body>
 </html>
+
+
+
+
+ 

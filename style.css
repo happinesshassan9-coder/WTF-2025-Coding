@@ -1,0 +1,50 @@
+body {
+    Display: flex;
+}
+
+.left-section {
+    background-color: aliceblue;
+    color:black;
+    width: 50%;
+    height: 100%;
+}
+
+
+.right-section {
+    background-color: rgb(164, 239, 241);
+    color:black;
+    margin: 0;
+    padding-top: 30%;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 50%;
+    height:100%;
+    text-align: center;
+}
+
+button {
+    background-color: cadetblue;
+    color:black;
+}
+
+.right-section .content {
+    max-width: 70%;
+    max-height: 60%;
+    margin:auto;
+}
+
+.right-section p {
+    color: black;
+}
+
+
+.right-section .content img {
+   max-width: 100%;
+    max-height: 200px;
+   
+}
+
+.right-section .content h3 {
+    padding-top: 200px;
+}

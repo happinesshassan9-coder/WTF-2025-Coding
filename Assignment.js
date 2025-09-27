@@ -71,3 +71,9 @@ console.log(user2);
 user3.balance = currencyConverter(GIVE_AWAY.balance, user3.currency);
 console.log(user3);
 
+
+
+
+
+
+<script src="./javascript.js"></script>
